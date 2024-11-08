@@ -1,3 +1,4 @@
+import plugin from 'tailwindcss/plugin';
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -25,6 +26,17 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    
+    plugin(function ({ addUtilities, theme, e }) {
+      addUtilities({
+        // Add your custom class for font-juniper
+        '.font-juniper': {
+          fontFamily: theme('fontFamily.juniper'),
+        },
+      });
+    }),
+    
+  ],
 };
 export default config;
