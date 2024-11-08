@@ -15,7 +15,7 @@
 
     // Customize the "no-debugger" rule (allow debugger statements)
     "no-debugger": "off",
-    // Disable the "react/no-children-prop"
+    // Disable the "react/no-children-prop
     "react/no-children-prop": "off"
   }
 }
