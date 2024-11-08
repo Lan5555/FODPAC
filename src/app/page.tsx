@@ -30,7 +30,7 @@ const HomePage:React.FC = () => {
   //const [heart, toggleHeart] = useState<string>('fill');
   const sideBarStyle:CSSProperties = {
     left: isClicked ? '0' : '-400px',
-    transition:'0.3s ease-in-out',
+    transition:'0.3s ease-in-out'
 
   }
   const [hearts, setHearts] = useState<{ [key: string]: string }>({
