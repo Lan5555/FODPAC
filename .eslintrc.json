@@ -14,6 +14,8 @@
     "react/react-in-jsx-scope": "off",
 
     // Customize the "no-debugger" rule (allow debugger statements)
-    "no-debugger": "off"
+    "no-debugger": "off",
+    // Disable the "react/no-children-prop" rule
+    "react/no-children-prop": "off"
   }
 }
