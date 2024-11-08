@@ -7,6 +7,11 @@
   --foreground: #171717;
   --shadow-box: 0 0.15rem 1.75rem 0 rgba(33 40 50 / 15%);
 }
+@layer utilities {
+  .font-juniper {
+    font-family: 'Juniper', sans-serif; /* Replace with your actual font stack */
+  }
+}
 
 @layer base{
   @font-face{
@@ -18,9 +23,5 @@
   }
 }
 
-@layer utilities {
-  .font-juniper {
-    font-family: 'Juniper', sans-serif; /* Replace with your actual font stack */
-  }
-}
+
 

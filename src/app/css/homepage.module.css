@@ -33,7 +33,7 @@
         @apply relative left-72 w-80 h-80 bottom-24
     }
     .h1Style{
-        @apply relative text-green-700 top-20 font-juniper text-3xl
+        @layer relative text-green-700 top-20 font-juniper text-3xl;
     }
     .btnStyle{
         @apply relative top-28
