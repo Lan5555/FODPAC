@@ -3,7 +3,7 @@ import { CSSProperties } from "react"
 interface props{
     children:React.ReactNode,
     onPressed?:()=> void, 
-    className?:any
+    className?:string
     type?:'button' | 'submit' | 'reset',
     disabled?:boolean
 }
