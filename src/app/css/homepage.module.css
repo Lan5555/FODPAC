@@ -1,0 +1,801 @@
+.header{
+    @apply w-full
+ bg-white p-2
+   flex 
+}
+.iconSize{
+    @apply size-6 hover:text-green-500
+}
+
+@media only screen and (min-width:542px){
+    .logo{
+        @apply w-44 ml-6
+    }
+    .navigation{
+        @apply flex gap-6 w-1/2 mx-auto p-6
+        
+    }
+    .iconsHolder{
+        position: relative;
+        top:20px;
+        right:15px;
+        display: flex;
+        gap:20px;
+    }
+    .bars{
+        display: none;
+    }
+    .sideBar{
+        display: none;
+    }
+    .drinkImage{
+        @apply relative left-72 w-80 h-80 bottom-24
+    }
+    .h1Style{
+        @apply relative text-green-700 top-20 font-juniper text-3xl
+    }
+    .btnStyle{
+        @apply relative top-28
+        bg-green-700 text-white hover:bg-gray-500
+    }
+    .pStyle{
+        @apply relative top-36 text-sm cursor-pointer
+    }
+    .carousel{
+        @apply flex  justify-center
+    }
+    .inner{
+        @apply flex gap-2 m-10  overflow-x-auto
+    }
+    .inner::-webkit-scrollbar{
+        display: none;
+    }
+    .carousel{
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .box{
+        @apply w-36 h-36 rounded-2xl p-4  flex-shrink-0 
+    }
+    .advert{
+        @apply w-11/12 p-8 h-96 bg-yellow-50  rounded-3xl mx-auto mt-7
+    }
+    .moreInfor1{
+        @apply text-orange-300 font-bold relative top-5;
+    }
+    .moreInfor2{
+        @apply relative top-8 font-juniper text-xl text-green-800;
+    }
+    .moreInfor3{
+        @apply relative top-12 font-bold;
+    }
+    .moreInfor4{
+        @apply relative top-14 list-disc text-sm;
+    }
+    .guy{
+        @apply w-72 h-72 relative top-14
+    }
+    .info{
+        @apply flex gap-5
+    }
+    .coreValues{
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        margin: 60px;
+    }
+    .coreValues::-webkit-scrollbar{
+        display: none;
+    }
+    .core{
+        @apply flex-shrink-0 rounded-xl border border-orange-400 w-60 h-52
+        p-4
+    }
+    .learnmore{
+        @apply relative top-16 bg-green-700 text-white hover:bg-blue-200
+    }
+    .advert2{
+        @apply w-11/12 p-5 h-96 bg-green-800 rounded-3xl flex justify-center items-center gap-20
+        mb-6
+    }
+    .details{
+        @apply mt-5 mb-20
+    }
+    .child1{
+        @apply font-juniper font-bold text-2xl text-white
+        relative top-4 left-4
+    }
+    .child2{
+        @apply text-white relative top-8 left-4 text-xs
+    }
+    .child3{
+        @apply font-juniper font-bold text-2xl text-white
+        relative left-4 top-16
+    }
+    .child4{
+        @apply text-white relative top-20 left-4 text-xs
+    }
+    .imageShadow{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .fruitContainer{
+        width: 19rem;
+        height: 13rem;
+        box-shadow: -20px 20px gold;
+        border-radius: 30px;
+        border: 1.5px solid white;
+    }
+    .shop{
+        @apply text-center font-bold text-orange-500 mb-5
+    }
+    .explore{
+        @apply text-center font-bold text-green-700 font-juniper text-3xl
+    }
+    .shopHolder{
+        @apply grid gap-5 mt-10  p-4 grid-cols-4 place-items-center
+    }
+    .shopHolder::-webkit-scrollbar{
+        display: none;
+    }
+    .container{
+        @apply rounded-lg w-40 h-52 mb-10 bg-yellow-100 flex-shrink-0
+    }
+    .cardImage{
+        @apply w-full h-28 rounded-lg shadow-sm object-cover 
+    }
+    .cardH{
+        @apply flex mt-5
+    }
+    .name{
+        @apply  text-xxs font-bold relative left-2 cursor-none
+    }
+    .purchase{
+        @apply flex gap-3 justify-center relative top-3
+    }
+    .cardbutton{
+        @apply bg-green-700 text-white p-1 text-sm rounded-md shadow-sm flex gap-1 hover:bg-slate-600 cursor-pointer
+        w-20
+    }
+    .cardDetails{
+        @apply text-xxs relative top-3 cursor-pointer
+    }
+    .cartSize{
+        @apply h-4 w-4
+    }
+    .pSize{
+        @apply text-xxs
+    }
+    .heartIcon{
+        @apply w-4 h-4 relative left-8 cursor-pointer
+    }
+    .smallDiv{
+       @apply mr-3 w-auto h-auto
+    }
+    .fromYou{
+        @apply font-juniper font-bold text-2xl text-green-700 text-center mt-7
+    }
+    .form{
+        @apply flex justify-center flex-col gap-1 w-96
+    }
+     /*  */
+     .footer{
+        @apply flex gap-20 justify-center p-5 w-11/12 h-80
+         bg-green-700 rounded-2xl
+    }
+    .first{
+        @apply w-96
+    }
+    .footerLogo{
+        @apply w-40 h-16 mt-8 cursor-default
+    }
+    .footerText1{
+        @apply text-xxs text-white mt-5 cursor-default
+    }
+    .footerText2{
+        @apply text-xxs text-white mt-5 font-bold cursor-default
+    }
+    .socials{
+        @apply font-bold mt-5 font-bold text-white cursor-default text-xxs
+    }
+    .footerIcon1{
+        @apply w-4 h-4 text-white mt-5
+    }
+    .footerIcon2{
+        @apply w-4 h-4 text-white mt-5
+    }
+    .second{
+        @apply mt-12 relative right-10
+    }
+    .secondText{
+        @apply text-white font-bold mb-8 cursor-default
+        text-xs
+    }
+    .second p{
+        @apply mt-4 text-white font-bold cursor-pointer hover:text-gray-600
+        text-xxs
+    }
+    .third{
+        @apply mt-12
+    }
+    .thirdText{
+        @apply font-bold text-white cursor-default
+        text-xs
+    }
+    .thirdIcon1{
+        @apply w-4 h-4 text-white
+    }
+    .phone{
+        @apply text-white font-bold cursor-default
+        text-xxs
+    }
+    .thirdIcon2{
+        @apply w-4 h-4 text-white
+    }
+    .fodpacEmail{
+        @apply text-white font-bold cursor-default
+        text-xxs
+    }
+    .thirdIcon3{
+        @apply text-white w-4 h-4
+    }
+    .address{
+        @apply text-white font-bold cursor-default
+        text-xxs
+    }
+    .line{
+        @apply  w-10/12 h-xs bg-white absolute mt-60
+        
+    }
+    .Fodpac{
+        @apply absolute flex gap-16 mt-64
+    }
+    .Fodpac p{
+        @apply text-white cursor-default text-xxs
+    }
+}
+@media only screen and (min-width:1242px){
+    .logo{
+        @apply w-44 ml-6
+    }
+    .navigation{
+        @apply flex gap-6 relative left-32
+        
+    }
+    .iconsHolder{
+        position: relative;
+        top:20px;
+        right:15px;
+        display: flex;
+        gap:20px;
+    }
+    .bars{
+        display: none;
+    }
+    .sideBar{
+        display: none;
+    }
+    .drinkImage{
+        @apply relative left-2/3 w-96 h-80 bottom-32
+    }
+    .h1Style{
+        @apply relative text-green-700 top-20 font-juniper text-5xl left-32
+    }
+    .btnStyle{
+        @apply relative top-28
+        bg-green-700 text-white hover:bg-gray-500 left-32
+    }
+    .pStyle{
+        @apply relative top-36 text-sm left-32 cursor-pointer
+    }
+    
+    .carousel{
+        @apply flex  justify-center
+    }
+    .inner{
+        @apply flex gap-11 m-10  overflow-x-auto
+    }
+    .carousel::-webkit-scrollbar{
+        display: none;
+    }
+    .carousel{
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .box{
+        @apply w-56 h-40 rounded-3xl flex-shrink-0
+    }
+    .advert{
+        @apply w-11/12 p-8 h-96 bg-yellow-50  rounded-3xl mx-auto mt-7
+    }
+    .guy{
+        @apply w-96 h-full relative top-8
+    }
+    .moreInfor1{
+        @apply text-orange-300 font-bold relative top-5;
+    }
+    .moreInfor2{
+        @apply relative top-8 font-juniper text-4xl text-green-800;
+    }
+    .moreInfor3{
+        @apply relative top-14 font-bold;
+    }
+    .moreInfor4{
+        @apply relative top-16 list-disc;
+    }
+    .info{
+        @apply flex gap-10
+    }
+    .coreValues{
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        margin: 50px;
+    }
+    .coreValues::-webkit-scrollbar{
+        display: none;
+    }
+    .core{
+        @apply flex-shrink-0 rounded-xl border border-orange-500 w-96 h-44
+        p-4
+    }
+    .learnmore{
+        @apply relative top-20 bg-green-700 text-white
+    }
+    .advert2{
+        @apply w-11/12 p-5 h-full bg-green-800 rounded-3xl flex justify-center items-center gap-48
+        mb-6
+    }
+    .details{
+        @apply mt-5 mb-20
+    }
+    .child1{
+        @apply font-juniper font-bold text-3xl text-white
+        mt-4 ml-16
+    }
+    .child2{
+        @apply text-white ml-16 mt-4 text-sm
+    }
+    .child3{
+        @apply font-juniper font-bold text-3xl text-white
+        mt-12 ml-16
+    }
+    .child4{
+        @apply text-white ml-16 mt-4 text-sm mb-10
+    }
+    .imageShadow{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .fruitContainer{
+        width: 25rem;
+        height: 19rem;
+        box-shadow: -20px 20px gold;
+        border-radius: 30px;
+        border: 1.5px solid white;
+    }
+    .shop{
+        @apply text-center font-bold text-orange-500 mb-5
+    }
+    .explore{
+        @apply text-center font-bold text-green-700 font-juniper text-4xl
+    }
+    .shopHolder{
+        @apply flex gap-10 justify-center mt-10
+    }
+    .container{
+        @apply rounded-lg w-56 h-64 mb-10 bg-yellow-100
+    }
+    .cardImage{
+        @apply w-full h-40 rounded-2xl shadow-sm object-cover 
+    }
+    .cardH{
+        @apply flex mt-5
+    }
+    .name{
+        @apply  text-xs font-bold relative left-5 cursor-none
+    }
+    .purchase{
+        @apply flex gap-3 justify-center relative top-3
+    }
+    .cardbutton{
+        @apply bg-green-700 text-white p-2 text-sm rounded-lg shadow-sm flex gap-1 hover:bg-slate-600 cursor-pointer
+        w-28 h-8 flex justify-center
+    }
+    .cardDetails{
+        @apply text-sm relative top-3 cursor-pointer
+    }
+    .cartSize{
+        @apply w-5 h-5
+    }
+    .pSize{
+        @apply text-xs
+    }
+    .heartIcon{
+        @apply w-5 h-5 relative left-16 cursor-pointer
+    }
+    .smallDiv{
+        @apply mr-3 w-auto h-auto
+    }
+    .fromYou{
+        @apply font-juniper font-bold text-2xl text-green-700 text-center mt-7
+    }
+    .form{
+        @apply flex justify-center flex-col gap-1 w-1/3
+    }
+    /*  */
+    .footer{
+        @apply flex gap-40 justify-center p-5 w-11/12 h-96
+         bg-green-700 rounded-2xl
+    }
+    .first{
+        @apply w-96
+    }
+    .footerLogo{
+        @apply w-48 h-20 mt-8 cursor-default
+    }
+    .footerText1{
+        @apply text-sm text-white mt-5 cursor-default
+    }
+    .footerText2{
+        @apply text-sm text-white mt-5 font-bold cursor-default
+    }
+    .socials{
+        @apply font-bold mt-5 font-bold text-white cursor-default text-sm
+    }
+    .footerIcon1{
+        @apply w-5 h-5 text-white mt-5
+    }
+    .footerIcon2{
+        @apply w-5 h-5 text-white mt-5
+    }
+    .second{
+        @apply mt-12 relative right-10
+    }
+    .secondText{
+        @apply text-white font-bold mb-8 cursor-default text-lg
+    }
+    .second p{
+        @apply mt-4 text-white font-bold cursor-pointer hover:text-gray-600 text-sm
+    }
+    .third{
+        @apply mt-12
+    }
+    .thirdText{
+        @apply font-bold text-white cursor-default text-lg
+    }
+    .thirdIcon1{
+        @apply w-5 h-5 text-white
+    }
+    .phone{
+        @apply text-white font-bold cursor-default text-sm
+    }
+    .thirdIcon2{
+        @apply w-5 h-5 text-white
+    }
+    .fodpacEmail{
+        @apply text-white font-bold cursor-default text-sm
+    }
+    .thirdIcon3{
+        @apply text-white w-5 h-5
+    }
+    .address{
+        @apply text-white font-bold cursor-default text-sm
+    }
+    .line{
+        @apply  w-4/6 h-xs bg-white absolute mt-72
+        
+    }
+    .Fodpac{
+        @apply absolute flex gap-32 mt-80
+    }
+    .Fodpac p{
+        @apply text-white cursor-default text-sm
+    }
+}
+
+@media only screen and (max-width:600px){
+    .logo{
+        @apply w-20 h-10 ml-2 relative top-2
+    }
+    .navigation{
+        display: none;
+        
+    }
+    .bars{
+        @apply size-6
+        relative
+        top-4
+    }
+    
+    .iconsHolder{
+        position: absolute;
+        top:20px;
+        right:10px;
+        display: flex;
+        gap:20px;
+    }
+    .iconSize{
+        @apply size-4
+        relative
+        top-2
+    }
+    .sideBar{
+        width: 70%;
+        height: 100vh;
+        box-shadow: var(--shadow-box);
+        background-color: white;
+        position: fixed;
+        top:0;
+        z-index: 3;
+    }
+    .sideBarHeader{
+        box-shadow: var(--shadow-box);
+        height: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 5px;
+    }
+    .sideBarHeader img{
+        width: 50%;
+        height: 50%;
+    }
+    .navigationMobile{
+        @apply grid gap-4 p-3
+    }
+    .carousel{
+        @apply flex justify-center
+    }
+    .inner{
+        @apply flex gap-4 m-10  overflow-x-auto
+    }
+    .inner::-webkit-scrollbar{
+        display: none;
+    }
+    .carousel{
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    .box{
+        @apply w-32 h-28 rounded-3xl flex-shrink-0
+    }
+    .advert{
+        @apply w-11/12 p-8 h-60 bg-yellow-50  rounded-3xl mx-auto mt-7
+        
+    }
+    .drinkImage{
+        @apply relative left-52 w-36 h-36 bottom-12
+    }
+    @media only screen and (max-width:390px){
+        .drinkImage{
+            @apply relative left-40 w-32 h-36 bottom-12
+        }
+    }
+    .h1Style{
+        @apply relative text-green-700 top-1 font-juniper text-lg left-1
+    }
+    .btnStyle{
+        @apply relative top-7
+        bg-green-700 text-white hover:bg-gray-500 left-1
+    }
+    .pStyle{
+        @apply relative top-12 text-sm left-1 cursor-pointer
+    }
+    
+    .moreInfor1{
+        @apply text-orange-300 font-bold relative -top-8 text-center;
+    }
+    .moreInfor2{
+        @apply relative -top-5 font-juniper text-xl text-green-800 left-5;
+    }
+    .moreInfor3{
+        @apply relative -top-3 font-bold text-sm left-5;
+    }
+    .moreInfor4{
+        @apply relative -top-2 list-disc text-sm left-5 ml-10;
+    }
+    .guy{
+        @apply w-72 h-72 ml-10
+    }
+    .info{
+        @apply grid gap-5
+    }
+    .coreValues{
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        margin: 5% auto;
+        padding: 20px;
+    }
+    .coreValues::-webkit-scrollbar{
+        display: none;
+    }
+    .core{
+        @apply flex-shrink-0 rounded-xl border border-orange-400 w-60 h-52
+        p-4
+    }
+    .learnmore{
+        @apply ml-5 bg-green-700 text-white hover:bg-blue-300
+    }
+    .advert2{
+        @apply w-11/12 p-5 h-72 bg-green-800 rounded-3xl flex justify-center items-center gap-20
+        mb-6
+    }
+    .details{
+        @apply mt-5 mb-20
+    }
+    .child1{
+        @apply font-juniper font-bold text-xl text-white
+        mt-24 ml-1
+    }
+    .child2{
+        @apply text-white ml-1 mt-4 text-xxs
+    }
+    .child3{
+        @apply font-juniper font-bold text-xl text-white
+        mt-5 ml-1
+    }
+    .child4{
+        @apply text-white ml-1 mt-4 text-xxs mb-10
+    }
+    .imageShadow{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 30px;
+    }
+    .fruitContainer{
+        width: 150px;
+        position: relative;
+        height: 100px;
+        box-shadow: -10px 10px gold;
+        border-radius: 30px;
+        border: 1.5px solid white;
+        top:20px;
+    }
+    .shop{
+        @apply text-center font-bold text-orange-500 mb-5
+    }
+
+    .explore{
+        @apply text-center font-bold text-green-700 font-juniper text-xl
+    }
+    .shopHolder{
+        @apply grid gap-3 mt-5 grid-cols-2 m-2 place-items-center
+    }
+    .container{
+        @apply rounded-lg w-44 h-60 mb-10 bg-yellow-100
+    }
+    .cardImage{
+        @apply w-full h-36 rounded-2xl shadow-sm object-cover 
+    }
+    .cardH{
+        @apply flex mt-5
+    }
+    .name{
+        @apply  text-xxs font-bold relative left-5 cursor-none
+    }
+    .purchase{
+        @apply flex gap-3 justify-center relative top-3
+    }
+    .cardbutton{
+        @apply bg-green-700 text-white p-1 text-xxs rounded-lg shadow-sm flex gap-1 hover:bg-slate-600 cursor-pointer
+        w-20 h-6 mt-2 flex justify-center
+    }
+    .cardDetails{
+        @apply text-xs relative top-3 cursor-pointer
+    }
+    .cartSize{
+        @apply w-3 h-4
+    }
+    .pSize{
+        @apply text-xxs
+    }
+    .heartIcon{
+        @apply w-5 h-5 relative left-10 cursor-pointer
+    }
+    .smallDiv{
+        @apply mr-2 w-auto h-auto p-1
+    }
+    .textInDiv{
+        @apply text-xxs
+    }
+    .fromYou{
+        @apply font-juniper font-bold text-2xl text-green-700 text-center mt-7
+    }
+    .form{
+        @apply flex justify-center flex-col gap-1 w-72
+    }
+    /*  */
+    .footer{
+        @apply flex gap-6 justify-center p-8 w-11/12 h-80
+         bg-green-700 rounded-2xl
+    }
+    .first{
+        @apply w-96
+    }
+    .footerLogo{
+        @apply w-28 h-10  cursor-default mt-3 
+    }
+    .footerText1{
+        @apply text-xxls text-white mt-2 cursor-default
+    }
+    .footerText2{
+        @apply text-xxls text-white mt-2 font-bold cursor-default
+    }
+    .socials{
+        @apply font-bold mt-2 font-bold text-white cursor-default text-xxs
+    }
+    .footerIcon1{
+        @apply w-3 h-3 text-white mt-2
+    }
+    .footerIcon2{
+        @apply w-3 h-3 text-white mt-2
+    }
+    .second{
+        @apply mt-5
+    }
+    .secondText{
+        @apply text-white font-bold mb-8 cursor-default
+        text-xs
+    }
+    .second p{
+        @apply mt-4 text-white font-bold cursor-pointer hover:text-gray-600
+        text-xxls
+    }
+    .third{
+        @apply mt-5
+    }
+    .thirdText{
+        @apply font-bold text-white cursor-default
+        text-xs
+    }
+    .thirdIcon1{
+        @apply w-3 h-3 text-white
+    }
+    .phone{
+        @apply text-white font-bold cursor-default
+        text-xxls
+    }
+    .thirdIcon2{
+        @apply w-3 h-3 text-white
+    }
+    .fodpacEmail{
+        @apply text-white font-bold cursor-default
+        text-xxls
+    }
+    .thirdIcon3{
+        @apply text-white w-3 h-3
+    }
+    .address{
+        @apply text-white font-bold cursor-default
+        text-xxls
+    }
+    .line{
+        @apply  w-10/12 h-xs bg-white absolute mt-52
+        
+    }
+    .Fodpac{
+        @apply absolute flex gap-3 mt-60 justify-center
+    }
+    .Fodpac p{
+        @apply text-white cursor-default text-xxls ml-5 
+    }
+    .Fodpac p:nth-of-type(1){
+        @apply relative left-4
+    }
+    
+    .Fodpac p:nth-of-type(3){
+        @apply relative right-4
+    }
+}
+
+.Image{
+    @apply w-full h-full object-cover rounded-3xl 
+}
