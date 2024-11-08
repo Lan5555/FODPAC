@@ -15,7 +15,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily:{
-        custom:['Juniper','sans-serif'],
+        juniper:['Juniper','sans-serif'],
       },
       fontSize:{
         xxs:'10px',
@@ -27,6 +27,7 @@ const config: Config = {
       }
     },
   },
+  purge:false,
   plugins: [
     
     plugin(function ({ addUtilities, theme, e }) {
@@ -39,5 +40,6 @@ const config: Config = {
     }),
     
   ],
+  
 };
 export default config;
