@@ -18,3 +18,9 @@
   }
 }
 
+@layer utilities {
+  .font-juniper {
+    font-family: 'Juniper', sans-serif; /* Replace with your actual font stack */
+  }
+}
+
