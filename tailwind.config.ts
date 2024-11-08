@@ -15,7 +15,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily:{
-        juniper:['Juniper','sans-serif'],
+        custom:['Juniper','sans-serif'],
       },
       fontSize:{
         xxs:'10px',

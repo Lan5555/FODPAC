@@ -1,21 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@layer utilities {
-    .font-juniper {
-      font-family: 'Juniper', sans-serif; /* Replace with your actual font stack */
-    }
-  }
-  
-  @layer base{
-    @font-face{
-      font-family: 'Juniper';
-      src:url('./fonts/JuniperRegular.otf') 
-      format('opentype');
-      font-weight: normal;
-      font-style: normal;
-    }
-}
+
 .header{
     @apply w-full
  bg-white p-2
