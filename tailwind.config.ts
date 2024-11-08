@@ -27,7 +27,7 @@ const config: Config = {
       }
     },
   },
-  purge:false,
+  
   plugins: [
     
     plugin(function ({ addUtilities, theme, e }) {
