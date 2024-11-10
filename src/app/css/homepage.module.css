@@ -41,7 +41,8 @@
         bg-green-700 text-white hover:bg-gray-500
     }
     .pStyle{
-        @apply relative top-36 text-sm cursor-pointer
+        @apply relative top-36 text-sm cursor-pointer select-none hover:text-gray-200
+        animate-pulse
     }
     .carousel{
         @apply flex  justify-center
@@ -293,7 +294,8 @@
         bg-green-700 text-white hover:bg-gray-500 left-32
     }
     .pStyle{
-        @apply relative top-36 text-sm left-32 cursor-pointer
+        @apply relative top-36 text-sm left-32 cursor-pointer select-none hover:text-gray-200
+        animate-pulse
     }
     
     .carousel{
@@ -596,7 +598,8 @@
         bg-green-700 text-white hover:bg-gray-500 left-1
     }
     .pStyle{
-        @apply relative top-12 text-sm left-1 cursor-pointer
+        @apply relative top-12 text-sm left-1 cursor-pointer select-none hover:text-green-300 
+        animate-pulse
     }
     
     .moreInfor1{
