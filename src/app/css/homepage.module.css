@@ -508,6 +508,13 @@
     }
 }
 
+@media  screen and (width: 1024px) and (height:600px){
+    .drinkImage{
+        @apply relative left-2/3 w-72 h-80 bottom-24
+    }
+}
+
+    
 @media only screen and (max-width:600px){
     .logo{
         @apply w-20 h-10 ml-2 relative top-2 select-none
@@ -590,6 +597,7 @@
             @apply relative left-40 w-32 h-36 bottom-12
         }
     }
+    
     .h1Style{
         @apply relative text-green-700 top-1 font-juniper text-lg left-1
     }
@@ -670,7 +678,7 @@
     .fruitContainer{
         width: 150px;
         position: relative;
-        height: 100px;
+        height: 160px;
         box-shadow: -10px 10px gold;
         border-radius: 30px;
         border: 1.5px solid white;
