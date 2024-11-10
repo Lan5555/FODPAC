@@ -257,6 +257,9 @@
     .Fodpac p{
         @apply text-white cursor-default text-xxs
     }
+    .physicalStores{
+        @apply font-bold text-2xl font-juniper text-center mt-5 text-green-700
+    }
 }
 @media only screen and (min-width:1242px){
     .logo{
@@ -498,6 +501,9 @@
     .Fodpac p{
         @apply text-white cursor-default text-sm
     }
+    .physicalStores{
+        @apply font-bold text-2xl font-juniper text-center mt-5 text-green-700
+    }
 }
 
 @media only screen and (max-width:600px){
@@ -603,7 +609,7 @@
         @apply relative -top-3 font-bold text-sm left-5;
     }
     .moreInfor4{
-        @apply relative -top-2 list-disc text-sm left-5 ml-10;
+        @apply relative -top-2 list-disc text-sm left-2 ml-9;
     }
     .moreInfor4 li{
         @apply text-xs
@@ -715,7 +721,7 @@
         @apply text-xxs
     }
     .fromYou{
-        @apply font-juniper font-bold text-2xl text-green-700 text-center mt-7
+        @apply font-juniper font-bold text-xl text-green-700 text-center mt-5
     }
     .form{
         @apply flex justify-center flex-col gap-1 w-72
@@ -796,11 +802,14 @@
         @apply text-white cursor-default text-xxls ml-5 select-none
     }
     .Fodpac p:nth-of-type(1){
-        @apply relative left-4
+        @apply relative left-3
     }
     
     .Fodpac p:nth-of-type(3){
-        @apply relative right-4
+        @apply relative right-5
+    }
+    .physicalStores{
+        @apply font-bold text-xl font-juniper text-center mt-5 text-green-700
     }
 }
 
