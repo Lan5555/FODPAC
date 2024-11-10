@@ -605,8 +605,11 @@
     .moreInfor4{
         @apply relative -top-2 list-disc text-sm left-5 ml-10;
     }
+    .moreInfor4 li{
+        @apply text-xs
+    }
     .guy{
-        @apply w-72 h-72 ml-10
+        @apply w-72 h-72 ml-5
     }
     .info{
         @apply grid gap-5
@@ -669,10 +672,10 @@
     }
 
     .explore{
-        @apply text-center font-bold text-green-700 font-juniper text-xl
+        @apply text-center font-bold text-green-700 font-juniper text-lg
     }
     .shopHolder{
-        @apply grid gap-3 mt-5 grid-cols-2 m-2 place-items-center
+        @apply grid gap-3 mt-4 grid-cols-2 m-2 place-items-center
     }
     .container{
         @apply rounded-lg w-44 h-60 mb-10 bg-yellow-100

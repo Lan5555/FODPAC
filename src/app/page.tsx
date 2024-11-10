@@ -212,7 +212,7 @@ const HomePage:React.FC = () => {
         <section className='flex justify-center mt-14'>
           <div>
           <h2 className='text-orange-400 font-bold text-center'>WE ARE PROBABLY NEAR YOU</h2>
-          <h1 className='font-bold text-2xl font-juniper text-center mt-10 text-green-700'>LOCATION OF OUR PHYSICAL STORES</h1>
+          <h1 className='font-bold text-2xl font-juniper text-center mt-5 text-green-700'>LOCATION OF OUR PHYSICAL STORES</h1>
           </div>
         </section>
         <section className='flex justify-center flex-col items-center'>
