@@ -551,11 +551,14 @@
     .navigationMobile{
         @apply grid gap-4 p-3
     }
+    .navigationMobile p{
+        @apply select-none
+    }
     .carousel{
         @apply flex justify-center
     }
     .inner{
-        @apply flex gap-4 m-10  overflow-x-auto
+        @apply flex gap-4 m-7  overflow-x-auto
     }
     .inner::-webkit-scrollbar{
         display: none;
@@ -688,7 +691,7 @@
     }
     .cardbutton{
         @apply bg-green-700 text-white p-1 text-xxs rounded-lg shadow-sm flex gap-1 hover:bg-slate-600 cursor-pointer
-        w-20 h-6 mt-2 flex justify-center
+        w-20 h-6 mt-2 flex justify-center select-none
     }
     .cardDetails{
         @apply text-xs relative top-3 cursor-pointer
@@ -697,13 +700,13 @@
         @apply w-3 h-4
     }
     .pSize{
-        @apply text-xxs
+        @apply text-xxs select-none
     }
     .heartIcon{
         @apply w-5 h-5 relative left-10 cursor-pointer
     }
     .smallDiv{
-        @apply mr-2 w-auto h-auto p-1
+        @apply mr-2 w-auto h-auto p-1 select-none
     }
     .textInDiv{
         @apply text-xxs
@@ -745,18 +748,18 @@
     }
     .secondText{
         @apply text-white font-bold mb-8 cursor-default
-        text-xs
+        text-xs select-none
     }
     .second p{
         @apply mt-4 text-white font-bold cursor-pointer hover:text-gray-600
-        text-xxls
+        text-xxls select-none
     }
     .third{
         @apply mt-5
     }
     .thirdText{
         @apply font-bold text-white cursor-default
-        text-xs
+        text-xs select-none
     }
     .thirdIcon1{
         @apply w-3 h-3 text-white
@@ -787,7 +790,7 @@
         @apply absolute flex gap-3 mt-60 justify-center
     }
     .Fodpac p{
-        @apply text-white cursor-default text-xxls ml-5 
+        @apply text-white cursor-default text-xxls ml-5 select-none
     }
     .Fodpac p:nth-of-type(1){
         @apply relative left-4
