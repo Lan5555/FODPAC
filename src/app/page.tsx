@@ -80,19 +80,19 @@ const HomePage:React.FC = () => {
           <div className={styles.navigationMobile}>
             <div className="flex gap-1">
             <HomeIcon className='size-6'/> 
-              <p>Home</p>
+              <a href='#'>Home</a>
             </div>
             <div className="flex gap-1">
             <InformationCircleIcon className='size-6'/>
-            <p>About us</p>
+            <a href='#'>About us</a>
             </div>
             <div className="flex gap-1">
             <IdentificationIcon className='size-6'/>
-            <p>Our vision</p>
+            <a href='#'>Our vision</a>
             </div>
             <div className="flex gap-1">
             <PhoneArrowDownLeftIcon className='size-6'/>
-            <p>Contact</p>
+            <a href='#'>Contact</a>
             </div>
         </div>
         </div>
