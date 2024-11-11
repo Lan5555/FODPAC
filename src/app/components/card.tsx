@@ -3,6 +3,7 @@ import styles from '../css/homepage.module.css';
 import { HeartIcon } from "@heroicons/react/16/solid";
 import {ShoppingCartIcon} from "@heroicons/react/16/solid";
 import { HeartIcon as HeartOutline } from "@heroicons/react/24/outline";
+import {InformationCircleIcon} from "@heroicons/react/16/solid";
 
 interface props{
     image:string,
@@ -28,6 +29,7 @@ const Card:React.FC<props> = ({image, name, heartType = 'fill', onHeartClick}) =
           <p className={styles.pSize}>Add to cart</p>
           </div>
         <u><p className={styles.cardDetails}>More details</p></u>
+        <InformationCircleIcon className={styles.infoIcon} title="More details"></InformationCircleIcon>
         </div>
       </div>
     );

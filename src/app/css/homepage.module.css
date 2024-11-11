@@ -261,6 +261,9 @@
     .physicalStores{
         @apply font-bold text-2xl font-juniper text-center mt-5 text-green-700
     }
+    .infoIcon{
+        display: none;
+    }
 }
 @media only screen and (min-width:1242px){
     .logo{
@@ -506,6 +509,9 @@
     .physicalStores{
         @apply font-bold text-2xl font-juniper text-center mt-5 text-green-700
     }
+    .infoIcon{
+        display: none;
+    }
 }
 
 @media  screen and (width: 1024px) and (height:600px){
@@ -590,23 +596,23 @@
         
     }
     .drinkImage{
-        @apply relative left-52 w-36 h-36 bottom-12
+        @apply relative left-48 w-36 h-36 bottom-12
     }
     @media only screen and (max-width:390px){
         .drinkImage{
-            @apply relative left-40 w-32 h-36 bottom-12
+            @apply relative left-36 w-32 h-32 bottom-8
         }
     }
     
     .h1Style{
-        @apply relative text-green-700 top-1 font-juniper text-lg left-1
+        @apply relative text-green-700 top-1 font-juniper text-lg -left-2
     }
     .btnStyle{
         @apply relative top-7
-        bg-green-700 text-white hover:bg-gray-500 left-1
+        bg-green-700 text-white hover:bg-gray-500 -left-2
     }
     .pStyle{
-        @apply relative top-12 text-sm left-1 cursor-pointer select-none hover:text-green-300 
+        @apply relative top-12 text-sm -left-2 cursor-pointer select-none hover:text-green-300 
         animate-pulse
     }
     
@@ -714,7 +720,10 @@
         w-20 h-6 mt-2 flex justify-center select-none
     }
     .cardDetails{
-        @apply text-xxs relative top-3 cursor-pointer
+        display: none;
+    }
+    .infoIcon{
+        @apply w-5 h-10 ml-3 text-green-900 animate-pulse
     }
     .cartSize{
         @apply w-3 h-4
@@ -726,7 +735,7 @@
         @apply w-4 h-5 relative left-5 cursor-pointer
     }
     .smallDiv{
-        @apply mr-2 w-auto h-auto p-1 select-none
+        @apply mr-1 w-auto h-auto p-1 select-none
     }
     .textInDiv{
         @apply text-xxs
