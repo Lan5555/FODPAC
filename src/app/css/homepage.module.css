@@ -707,10 +707,11 @@
         @apply w-full h-28 rounded-2xl shadow-sm object-cover 
     }
     .cardH{
-        @apply flex mt-5
+        @apply flex mt-5 justify-between
     }
     .name{
         @apply  text-xxs font-bold relative left-2 cursor-none
+        text-nowrap text-ellipsis
     }
     .purchase{
         @apply flex gap-1 justify-center relative top-3
@@ -732,7 +733,7 @@
         @apply text-xxs select-none
     }
     .heartIcon{
-        @apply w-4 h-5 relative left-5 cursor-pointer
+        @apply w-4 h-5 relative  cursor-pointer right-2
     }
     .smallDiv{
         @apply mr-1 w-auto h-auto p-1 select-none
