@@ -573,7 +573,7 @@
         @apply flex justify-center
     }
     .inner{
-        @apply flex gap-4 m-7  overflow-x-auto
+        @apply flex gap-4 m-5  overflow-x-auto
     }
     .inner::-webkit-scrollbar{
         display: none;
@@ -614,7 +614,7 @@
         @apply text-orange-300 font-bold relative -top-8 text-center;
     }
     .moreInfor2{
-        @apply relative -top-5 font-juniper text-xl text-green-800 left-5;
+        @apply relative -top-5 font-juniper text-lg text-green-800 left-5;
     }
     .moreInfor3{
         @apply relative -top-3 font-bold text-sm left-5;
@@ -623,10 +623,10 @@
         @apply relative -top-2 list-disc text-sm left-2 ml-9;
     }
     .moreInfor4 li{
-        @apply text-xs
+        @apply text-xxs
     }
     .guy{
-        @apply w-72 h-72 ml-5
+        @apply w-72 h-72 ml-1 relative -left-4
     }
     .info{
         @apply grid gap-5
@@ -656,18 +656,18 @@
         @apply mt-5 mb-20
     }
     .child1{
-        @apply font-juniper font-bold text-xl text-white
-        mt-24 ml-1
+        @apply font-juniper font-bold text-lg text-white
+        mt-28 ml-1
     }
     .child2{
-        @apply text-white ml-1 mt-4 text-xxs
+        @apply text-white ml-1 mt-1 text-xxs
     }
     .child3{
-        @apply font-juniper font-bold text-xl text-white
-        mt-5 ml-1
+        @apply font-juniper font-bold text-lg text-white
+        mt-3 ml-1
     }
     .child4{
-        @apply text-white ml-1 mt-4 text-xxs mb-10
+        @apply text-white ml-1 mt-1 text-xxs mb-10
     }
     .imageShadow{
         width: 100%;
@@ -678,7 +678,7 @@
     .fruitContainer{
         width: 150px;
         position: relative;
-        height: 160px;
+        height: 120px;
         box-shadow: -10px 10px gold;
         border-radius: 30px;
         border: 1.5px solid white;
@@ -695,26 +695,26 @@
         @apply grid gap-3 mt-4 grid-cols-2 m-2 place-items-center
     }
     .container{
-        @apply rounded-lg w-44 h-60 mb-10 bg-yellow-100
+        @apply rounded-2xl w-36 h-52 mb-10 bg-yellow-100
     }
     .cardImage{
-        @apply w-full h-36 rounded-2xl shadow-sm object-cover 
+        @apply w-full h-28 rounded-2xl shadow-sm object-cover 
     }
     .cardH{
         @apply flex mt-5
     }
     .name{
-        @apply  text-xxs font-bold relative left-5 cursor-none
+        @apply  text-xxs font-bold relative left-2 cursor-none
     }
     .purchase{
-        @apply flex gap-3 justify-center relative top-3
+        @apply flex gap-1 justify-center relative top-3
     }
     .cardbutton{
-        @apply bg-green-700 text-white p-1 text-xxs rounded-lg shadow-sm flex gap-1 hover:bg-slate-600 cursor-pointer
+        @apply bg-green-700 text-white p-1 rounded-lg shadow-sm flex hover:bg-slate-600 cursor-pointer
         w-20 h-6 mt-2 flex justify-center select-none
     }
     .cardDetails{
-        @apply text-xs relative top-3 cursor-pointer
+        @apply text-xxs relative top-3 cursor-pointer
     }
     .cartSize{
         @apply w-3 h-4
@@ -723,7 +723,7 @@
         @apply text-xxs select-none
     }
     .heartIcon{
-        @apply w-5 h-5 relative left-10 cursor-pointer
+        @apply w-4 h-5 relative left-5 cursor-pointer
     }
     .smallDiv{
         @apply mr-2 w-auto h-auto p-1 select-none
@@ -746,7 +746,8 @@
         @apply w-96
     }
     .footerLogo{
-        @apply w-28 h-10  cursor-default mt-3 
+        @apply w-28 h-10  cursor-default mt-3 relative left-1
+        rounded-lg
     }
     .footerText1{
         @apply text-xxls text-white mt-2 cursor-default
@@ -817,7 +818,7 @@
     }
     
     .Fodpac p:nth-of-type(3){
-        @apply relative right-5
+        @apply relative right-5 text-xxs
     }
     .physicalStores{
         @apply font-bold text-xl font-juniper text-center mt-5 text-green-700
