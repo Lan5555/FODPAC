@@ -167,7 +167,7 @@ const HomePage:React.FC = () => {
             <div className={styles.core}>
             <h1 className='font-bold text-2xl font-juniper'>3.</h1>
               <h2 className='font-bold mt-3 text-sm text-orange-500'>CORE VALUES</h2>
-              <p className='text-sm mt-3'>We value health and wee-being, thus healthy farm produce, wholesome processed foods, excellent storage and efficient distribution systems are key.</p>
+              <p className='text-sm mt-3'>We value health and well-being, thus healthy farm produce, wholesome processed foods, excellent storage and efficient distribution systems are key.</p>
             </div>
           </div>
         </section>
