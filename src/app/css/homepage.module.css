@@ -150,7 +150,7 @@
         @apply w-full h-28 rounded-lg shadow-sm object-cover 
     }
     .cardH{
-        @apply flex mt-5
+        @apply flex mt-5 justify-between
     }
     .name{
         @apply  text-xxs font-bold relative left-2 cursor-none
@@ -172,7 +172,7 @@
         @apply text-xxs
     }
     .heartIcon{
-        @apply w-4 h-4 relative left-8 cursor-pointer
+        @apply w-4 h-4 relative right-3 cursor-pointer
     }
     .smallDiv{
        @apply mr-3 w-auto h-auto
@@ -404,7 +404,7 @@
         @apply w-full h-40 rounded-2xl shadow-sm object-cover 
     }
     .cardH{
-        @apply flex mt-5
+        @apply flex mt-5 justify-between
     }
     .name{
         @apply  text-xs font-bold relative left-5 cursor-none
@@ -426,7 +426,7 @@
         @apply text-xs
     }
     .heartIcon{
-        @apply w-5 h-5 relative left-16 cursor-pointer
+        @apply w-5 h-5 relative right-3 cursor-pointer
     }
     .smallDiv{
         @apply mr-3 w-auto h-auto
